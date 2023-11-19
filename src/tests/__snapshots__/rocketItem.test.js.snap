@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check for correct item rendering 1`] = `
+<div
+  className="rocketItem"
+>
+  <img
+    alt="rocket Name rocket"
+    className="rocketImg"
+    src="https://example.com/rocket.jpg"
+  />
+  <div
+    className="rocketContent"
+  >
+    <h3
+      className="rocketName"
+    >
+      rocket Name
+    </h3>
+    <p
+      className="rocketDescription"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam diam, ultricies quis maximus nec, maximus sit amet diam. Nam mollis faucibus eros, ut malesuada neque consequat in. Aenean in odio ut lectus varius dapibus quis et nulla. Suspendisse nibh augue, pharetra eget accumsan sed, sagittis vitae purus. In vehicula sem sit amet lorem consectetur, at aliquam lectus fermentum. Nunc volutpat vestibulum ante. Nulla justo est, malesuada et fermentum vitae, varius in felis. Phasellus dignissim justo a sapien iaculis, nec tempor dui congue.
+    </p>
+    <button
+      className="reserveBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      Reserve Rocket
+    </button>
+  </div>
+</div>
+`;

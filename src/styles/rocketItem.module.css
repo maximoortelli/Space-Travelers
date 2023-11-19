@@ -1,0 +1,36 @@
+.rocketItem {
+  display: flex;
+  padding: 15px 0;
+  gap: 15px;
+  flex: auto;
+}
+
+.rocketImg {
+  width: 250px;
+}
+
+.rocketContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reserveBtn {
+  margin-right: auto;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  background-color: #027bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  margin-right: auto;
+  padding: 10px 22px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #bcbbbb;
+  color: #bcbbbb;
+  cursor: pointer;
+}

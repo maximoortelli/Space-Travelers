@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checks if the badge renders correctly 1`] = `
+<span
+  className="rocketBadge active"
+>
+  Reserved
+</span>
+`;

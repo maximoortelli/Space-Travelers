@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirm that RocketsScreen renders correctly when:  page is loading 1`] = `
+<div>
+  Rockets loading...
+</div>
+`;
+
+exports[`Confirm that RocketsScreen renders correctly when:  store is empty 1`] = `
+<section>
+  <header>
+    <h2>
+      There are no rockets for the moment
+    </h2>
+    <h4>
+      Our rocket list is empty
+    </h4>
+  </header>
+</section>
+`;
+
+exports[`Confirm that RocketsScreen renders correctly when:  store is not empty 1`] = `
+<div>
+  <ul>
+    <li
+      className="rocketItemWrapper"
+    >
+      <div
+        className="rocketItem"
+      >
+        <img
+          alt="Falcon 9 rocket"
+          className="rocketImg"
+          src="https://example.com/falcon9.png"
+        />
+        <div
+          className="rocketContent"
+        >
+          <h3
+            className="rocketName"
+          >
+            Falcon 9
+          </h3>
+          <p
+            className="rocketDescription"
+          >
+            A reusable two-stage rocket
+          </p>
+          <button
+            className="reserveBtn"
+            onClick={[Function]}
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
+      </div>
+    </li>
+    <li
+      className="rocketItemWrapper"
+    >
+      <div
+        className="rocketItem"
+      >
+        <img
+          alt="Starship rocket"
+          className="rocketImg"
+          src="https://example.com/starship.png"
+        />
+        <div
+          className="rocketContent"
+        >
+          <h3
+            className="rocketName"
+          >
+            Starship
+          </h3>
+          <p
+            className="rocketDescription"
+          >
+            A fully reusable launch vehicle
+          </p>
+          <button
+            className="reserveBtn"
+            onClick={[Function]}
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
