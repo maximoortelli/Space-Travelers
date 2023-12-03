@@ -6,26 +6,41 @@
 
 .leaveBtn {
   color: red;
-  border: 1px solid red;
+  border: 1px solid white;
+  min-width: 135px;
+  cursor: pointer;
+}
+
+.leaveBtn:hover {
+  background-color: red;
+  color: white;
+  border: 4px solid white;
   min-width: 135px;
   cursor: pointer;
 }
 
 .joinBtn {
   cursor: pointer;
-  color: #6c757c;
+  color: white;
   border: 1px solid #6c757c;
+  background-color: #18a3b9;
   min-width: 135px;
 }
 
 .notActive {
   min-width: 135px;
   color: #fff;
-  background-color: #6c757c;
+  background-color: #6c757cd9;
   border-radius: 0.5rem;
 }
 
 .activeMember {
   color: #fff;
   background-color: #18a3b9;
+}
+
+td {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
 }

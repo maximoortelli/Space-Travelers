@@ -25,6 +25,11 @@ td:nth-child(1) {
   padding: 0.3rem;
 }
 
+.font {
+  font-weight: 600;
+  background-color: red;
+}
+
 td:nth-child(2) {
   padding: 0.3rem;
 }

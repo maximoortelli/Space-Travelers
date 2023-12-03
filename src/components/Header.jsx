@@ -1,21 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/planet.png';
+import Logo from '../assets/logo.png';
 import '../styles/header.css';
 
 const Header = () => {
   const links = [
     { path: '/', text: 'Rockets' },
     { path: 'missions', text: 'Missions' },
-    { path: 'profile', text: 'My Profile' },
+    { path: 'profile', text: 'User' },
   ];
 
   return (
     <div>
       <header className="header">
         <div>
-          <img src={Logo} alt="logo" />
-          <h1>Space Traveler&apos;s Hub</h1>
+          <img className="logo" src={Logo} alt="logo" />
         </div>
         <nav>
           <ul>

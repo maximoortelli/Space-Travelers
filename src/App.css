@@ -7,3 +7,9 @@
 #root {
   padding: 2% 5%;
 }
+
+p {
+  font-weight: 500;
+  width: 80%;
+  font-style: italic;
+}

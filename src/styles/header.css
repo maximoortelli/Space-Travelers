@@ -37,10 +37,15 @@ header li:nth-child(2) {
   padding-right: 2rem;
 }
 
+.logo {
+  width: 45%;
+  margin-left: -70%;
+}
+
 a {
   font-size: 1.5rem;
   text-decoration: none;
-  color: #077DFF;
+  color: #077dff;
 }
 
 .active {
